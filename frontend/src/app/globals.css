@@ -5,6 +5,26 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Paleta Principal: */
+  /* 1. Azul Profundo (#212121) - Cor de fundo e elementos principais
+  2. Azul Claro (#56B3FA) - Cor de ações e botões
+  3. Verde Limão (#34C759) - Cor de sucesso e confirmação
+  4. Vermelho Escuro (#8B0A1A) - Cor de erro ou alerta
+  5. Cinza Claro (#F7F7F7) - Cor de fundo para textos e elementos secundários */
+  --rcc-deep-blue: #212121;
+  --rcc-light-blue: #56b3fa;
+  --rcc-light-green: #34c759;
+  --rcc-dark-red: #8b0a1a;
+  --rcc-light-gray: #f7f7f7;
+
+  /* Paleta Secundária: */
+  /* 1. Azul Turquesa (#1ABC9C) - Cor de destaque para ofertas e promoções
+  2. Laranja Vibrante (#FFC107) - Cor de destaque para alertas e notificações
+  3. Verde Escuro (#2E865F) - Cor de fundo para elementos de navegação */
+  --rcc-turquoise-blue: #1abc9c;
+  --rcc-vibrant-orange: #ffc107;
+  --rcc-dark-green: #2e865f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,5 +37,5 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
